@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Weather</title>
+    <link rel="icon" href="/img/icons8-partly-cloudy-day-64">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    {{>myHeader}}
+    
+    <div>
+
+        <p>Use the site to get the weather at a location</p>
+
+        <form>
+            <input placeholder='Enter a location'>
+            <button>Search</button>
+        </form>
+
+        <p id="msg-1"></p>
+        <p id="msg-2"></p>
+
+    </div>
+
+    {{!-- <div>
+        <center>
+        <br><hr>
+        Place: {{place}}    <br><hr>
+        Latitude: {{lat}}   <br><hr>
+        Longitude: {{lon}}  <br><hr>
+        Weather: {{desc}}   <br><hr>
+        Temperature: {{temp}} <br><hr> 
+        <br> 
+        </center>
+    </div> --}}
+
+    {{>myFooter}}
+
+</body>
+
+<script src="/js/page-script.js"></script>
+
+</html>
