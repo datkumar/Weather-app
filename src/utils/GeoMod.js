@@ -1,4 +1,5 @@
 const request = require('request');
+require('dotenv').config();
 
 const geoAPI_key = process.env.geoAPI_key;
 
@@ -12,7 +13,7 @@ const geocode = (Address,Callback) => {
             if(error){
                 Callback('Unable to Connect to Location Service', undefined);
             }
-            else if(body.features.length === 0){
+            else if(body.features === undefined){
                 console.log('Unable to find location. Try a different search');
             }
             else {

@@ -1,4 +1,5 @@
 const request = require('request');
+require('dotenv').config();
 
 const weatherAPI_key = process.env.weatherAPI_key;
 
