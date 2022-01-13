@@ -21,7 +21,8 @@ weatherForm.addEventListener('submit', (e) => {
             } else {
                 console.log(data);
                 msg_1.textContent = '';
-                msg_2.innerHTML = `<hr>Location: ${data.place} <br><hr>` +
+                msg_2.innerHTML = 
+                        `<hr>Location: ${data.place} <br><hr>` +
                         `(Latitude, Longitude): (${data.lat}, ${data.lon}) <br><hr>` +
                         `Weather: ${data.desc} <br><hr>` +
                         `Temperature: ${data.temp} <br><hr>` 
