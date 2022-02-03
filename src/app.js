@@ -24,7 +24,7 @@ const WeatherMod = require('./utils/WeatherMod');
 
 myApp.get('', (req, resp) => {
     resp.render('index', {
-        title: 'Weather',
+        title: 'DaWeather',
         author: 'Kumar D.'
     })
 });

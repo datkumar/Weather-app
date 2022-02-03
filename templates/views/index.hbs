@@ -9,11 +9,13 @@
 </head>
 
 <body>
-    {{>myHeader}}
+    <header>
+		{{>myHeader}}
+	</header>
     
-    <div>
+    <div class="container">
 
-        <p>Use the site to get the weather at a location</p>
+        <p>Enter a Location to Search:</p>
 
         <form>
             <input placeholder='Enter a location'>
@@ -25,19 +27,9 @@
 
     </div>
 
-    {{!-- <div>
-        <center>
-        <br><hr>
-        Place: {{place}}    <br><hr>
-        Latitude: {{lat}}   <br><hr>
-        Longitude: {{lon}}  <br><hr>
-        Weather: {{desc}}   <br><hr>
-        Temperature: {{temp}} <br><hr> 
-        <br> 
-        </center>
-    </div> --}}
-
-    {{>myFooter}}
+    <footer>
+		{{>myFooter}}
+	</footer>
 
 </body>
 

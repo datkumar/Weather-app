@@ -13,8 +13,8 @@ const geocode = (Address,Callback) => {
             if(error){
                 Callback('Unable to Connect to Location Service', undefined);
             }
-            else if(body.features === undefined){
-                console.log('Unable to find location. Try a different search');
+            else if(body.features[0] === undefined){
+                Callback('Unable to find location. Try a different search',undefined);
             }
             else {
                 Callback(
