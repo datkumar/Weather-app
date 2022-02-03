@@ -41,12 +41,6 @@ weatherForm.addEventListener('submit', (e) => {
 						<td>${data.temp}</td>
 					</tr>
 				</table>`
-
-				// 	`<hr>Location: ${data.place} <br><hr>` +
-				// `(Latitude, Longitude): (${data.lat}, ${data.lon}) <br><hr>` +
-				// `Weather: ${data.desc} <br><hr>` +
-				// `Temperature: ${data.temp} <br><hr>`
-
 			}
 		})
 	})
