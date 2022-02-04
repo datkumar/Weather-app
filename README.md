@@ -4,7 +4,6 @@
 - It uses the **[Mapbox](https://www.mapbox.com/)** API for geo-location and the
   **[WeatherStack](https://weatherstack.com/)** API for fetching weather information
 
-## 
 
 ## Instructions:
 
