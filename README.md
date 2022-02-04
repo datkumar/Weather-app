@@ -4,7 +4,6 @@
 - It uses the **[Mapbox](https://www.mapbox.com/)** API for geo-location and the
   **[WeatherStack](https://weatherstack.com/)** API for fetching weather information
 
-
 ## Instructions:
 
 **Node.js**  must be installed on your system before starting:
@@ -16,7 +15,7 @@
 
 3. Create a new file named **(.env)** in project root folder. You can refer the 
    
-   **(.env-sample)** file. If file not visible, turn on  "Show Hidden Files" option in your File Explorer. Save the API keys in the (.env)  file as:
+   **[.env-sample](.env-sample)** file. If file not visible, turn on  "Show Hidden Files" option in your File Explorer. Save the API keys in the (.env)  file as:
    
         weatherAPI_key=your_WeatherStack_API_key
         geoAPI_key=your_Mapbox_API_key
