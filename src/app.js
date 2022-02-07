@@ -6,8 +6,8 @@ const request = require('request');
 const myApp = express();
 
 // root path for files used by the html/hbs
-const htmlFolderPath = path.join(__dirname, '../public/')
-myApp.use(express.static(htmlFolderPath))
+const publicFolderPath = path.join(__dirname, '../public/')
+myApp.use(express.static(publicFolderPath))
 
 myApp.set('view engine', 'hbs');
 
